@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = "http://121.41.108.203/MC-iOS/xcsadmiddle.git"
   s.description = "TODO: Add long description of the pod here."
   s.frameworks = "UIKit"
-  s.source = { :path => '.' }
+  s.source = { :git => 'https://github.com/hztutuxing/XCSAdCore.git' }
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/XCSADCore.framework'

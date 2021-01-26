@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "XCSADCore"
-  s.version = "1.2.2"
+  s.version = "1.2.3"
   s.summary = "A short description of XCSADCore."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"HWZSS"=>"maodou@ecook.cn"}
@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/XCSADCore.framework'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
 end

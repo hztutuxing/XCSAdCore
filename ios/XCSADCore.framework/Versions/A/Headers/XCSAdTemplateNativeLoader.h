@@ -11,6 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 暂时不用
 @interface XCSAdTemplateNativeLoader : NSObject
 
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "XCSADCore"
-  s.version = "1.2.1"
+  s.version = "1.2.2"
   s.summary = "A short description of XCSADCore."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"HWZSS"=>"maodou@ecook.cn"}
